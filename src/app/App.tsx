@@ -103,19 +103,11 @@ export default function App() {
               >
                 Hola, soy
               </motion.p>
-              <motion.h2
+              <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.7 }}
                 className="text-4xl sm:text-5xl font-bold text-slate-800 mb-4"
-              >
-                Juan Sebastian Estacio
-              </motion.h2>
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.8 }}
-                className="text-2xl sm:text-3xl text-cyan-600 mb-6"
               >
                 Desarrollador Full Stack
               </motion.p>
@@ -195,7 +187,7 @@ export default function App() {
                       src={profilePic}
                       alt="Juan Sebastian Estacio"
                       loading="lazy"
-                      className="rounded-3xl shadow-2xl w-full h-auto object-cover"
+                      className="rounded-3xl shadow-2xl w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                 </motion.div>
